@@ -5,7 +5,7 @@ Potrans it's PHP command line tool for automatic translation of Gettext PO file 
 ## Google Translator API
 
 Google Translate API pricing is based on usage. Translation usage is calculated in millions of
-characters (M), where 1 M = 106 characters. For more information, see the [Pricing FAQ](https://developers.google.com/translate/v2/faq#pricing).
+characters (M), where 1 M = 10^6 characters. For more information, see the [Pricing FAQ](https://developers.google.com/translate/v2/faq#pricing).
 
 For more information about Google Translate API visit https://developers.google.com/translate/
 
@@ -23,9 +23,8 @@ See full Getting Started guide: https://developers.google.com/translate/v2/getti
 
 ## Installation
 
-Install composer `curl -s http://getcomposer.org/installer | php` then run `composer install` for install all dependencies.
-
-For more information about Composer visit: https://getcomposer.org
+* Install composer `curl -s http://getcomposer.org/installer | php` then run `composer install` for install all dependencies. For more information about Composer visit: https://getcomposer.org
+* Install PHP Curl extension (php5-curl)
 
 ## Example
 
